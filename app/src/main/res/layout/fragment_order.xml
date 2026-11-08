@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        style="@style/AppTitle"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="Alamat" />
+
+    <EditText
+        android:id="@+id/etNamaLengkap"
+        style="@style/AppInput"
+        android:hint="Nama Lengkap"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etAlamat"
+        style="@style/AppInput"
+        android:layout_height="100dp"
+        android:gravity="top"
+        android:hint="Alamat"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:id="@+id/etPatokan"
+        style="@style/AppInput"
+        android:layout_height="100dp"
+        android:gravity="top"
+        android:hint="Patokan atau detail lengkap"
+        android:inputType="textMultiLine"
+        android:maxLines="4"
+        android:paddingTop="10dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnOrder"
+        style="@style/AppButton"
+        android:text="Order dan Kirim" />
+</LinearLayout>

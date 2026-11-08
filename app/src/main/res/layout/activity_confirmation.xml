@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/tvGreeting"
+        style="@style/AppTitle"
+        android:layout_marginTop="48dp"
+        android:text="Halo Nama," />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:background="@drawable/circle_ok"
+            android:gravity="center"
+            android:text="OK"
+            android:textColor="@color/green_ok_text"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Terima kasih sudah memesan tunggu aja sebentar kurir kami segera mengantarkan pesananmu!"
+            android:textColor="@color/gray_text" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnOke"
+        style="@style/AppButton"
+        android:text="Oke" />
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        style="@style/AppTitle"
+        android:layout_marginTop="48dp"
+        android:text="Sign up" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Join as a member &amp; experience more fun from various meal at mesen_gube marketing app"
+        android:textColor="@color/gray_text" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        style="@style/AppButton"
+        android:text="Register" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        style="@style/AppButtonOutline"
+        android:text="Login" />
+</LinearLayout>
